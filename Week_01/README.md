@@ -23,7 +23,7 @@ E getLast(); // throws an exception if this deque is empty
 E peekFirst(); //  returns {@code null} if this deque is empty
 E peekLast(); //  returns {@code null} if this deque is empty
 ```
- 实现了LRUCache功能
+LinkedHashMap 实现了LRUCache功能
 ```java
 LinkedHashMap<E> 
 Map<Integer, Integer> cache = new LinkedHashMap<Integer, Integer>(capacity, 0.75f, true) {
