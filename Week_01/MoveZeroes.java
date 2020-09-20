@@ -1,5 +1,3 @@
-package com.hsy.stu.algorithm.practice.arraytype;
-
 public class MoveZeroes {
 
     public void moveZeroes(int[] nums) {
