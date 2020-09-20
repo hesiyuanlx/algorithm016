@@ -13,7 +13,7 @@
  *     }
  * }
  */
-public class InorderTraversal {
+public class PreorderTraversal {
 
     private List<Integer> ans = new LinkedList();
 
