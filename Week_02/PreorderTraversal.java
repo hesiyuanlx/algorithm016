@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.LinkedList;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +35,18 @@ public class PreorderTraversal {
         ans.add(currentNode.val);
         helper(currentNode.right);
     }
+
+    public class TreeNode {
+        int val;
+        InorderTraversal.TreeNode left;
+        InorderTraversal.TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, InorderTraversal.TreeNode left, InorderTraversal.TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
 }
